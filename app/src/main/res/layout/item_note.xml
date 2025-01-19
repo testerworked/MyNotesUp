@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvNoteNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvNoteText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Текст заметки"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/cbNoteCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvNoteDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01.01.2023 12:00"
+            android:textSize="12sp"
+            android:layout_marginStart="8dp"
+            tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
